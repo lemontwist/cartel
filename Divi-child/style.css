@@ -93,3 +93,19 @@ a {
 	margin-bottom:.25em;
 }
 
+/*Newsletter Box*/
+.et_pb_column_1_3 .et_pb_newsletter, .et_pb_column_1_4 .et_pb_newsletter, .et_pb_column_3_8 .et_pb_newsletter {
+	padding: .5em 0;
+}
+
+.et_pb_column_1_3 .et_pb_newsletter_description, .et_pb_column_1_4 .et_pb_newsletter_description, .et_pb_column_3_8 .et_pb_newsletter_description {
+	padding:.5em;
+}
+
+.et_pb_newsletter_description h2 {
+	font-size: 18px;
+}
+
+.newsletter-box {
+	background: url(red-arrow-newsletter.png) no-repeat left top;
+}
