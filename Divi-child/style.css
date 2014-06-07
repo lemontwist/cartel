@@ -15,7 +15,7 @@ Template: Divi
 }
 
 #top-menu a {
-	font-size: 2em;
+	font-size: 1.85em;
 }
 
 a {
@@ -23,7 +23,7 @@ a {
 }
 
 #top-menu li {
-	padding-right: 4em;
+	padding-right: 1.5em;
 }
 
 #top-menu a:hover {
