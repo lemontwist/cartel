@@ -62,6 +62,12 @@ a {
 	display:none;
 }
 
+/*Padding in General*/
+
+.et_pb_section {
+	padding: 1.5em 0;
+}
+
 /*Social Icons*/
 
 #social-icons {
