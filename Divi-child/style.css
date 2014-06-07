@@ -115,3 +115,15 @@ a {
 .newsletter-box {
 	background: url(red-arrow-newsletter.png) no-repeat left top;
 }
+
+/*Homepage Video*/
+
+.homepage-video {
+	width:1080px;
+	height:608px;
+}
+
+.homepage-video video {
+	width: 1080px !important;
+	height: 608px !important;
+}
