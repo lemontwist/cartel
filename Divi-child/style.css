@@ -8,6 +8,12 @@ Template: Divi
 
 @import url("../Divi/style.css");
 
+/* Fonts */
+@font-face {
+  font-family: 'Universal';
+  src: url('Uni_acc.ttf')  format('truetype');
+}
+
 /* Header */
 
 #main-header {
@@ -15,7 +21,9 @@ Template: Divi
 }
 
 #top-menu a {
-	font-size: 1.85em;
+	font-size: 4em;
+	text-transform: uppercase;
+	font-family: 'Universal', 'Roboto',Helvetica,Arial,Lucida,sans-serif;
 }
 
 a {
@@ -31,11 +39,20 @@ a {
 }
 
 #top-menu li li a {
-	font-size: 1em;
+	font-size: 2em;
 }
 
 #top-menu li li a:hover {
 	color: #383838;
+}
+
+#top-menu li > a {
+	padding-bottom:.5em;
+}
+
+/*sub-menus!*/ .nav li ul {
+padding:1em;
+top: 2.5em;
 }
 
 .et_fixed_nav #logo {
@@ -60,6 +77,14 @@ a {
 
 .et-fixed-header .mission {
 	display:none;
+}
+
+/* Homepage */
+
+.homepage h2 {
+	text-transform: uppercase;
+	font-family: 'Universal', 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 3em;
 }
 
 /*Padding in General*/
@@ -113,7 +138,7 @@ a {
 }
 
 .newsletter-box {
-	background: url(red-arrow-newsletter.png) no-repeat left top;
+	background: url(yellow-arrow-newsletter.png) no-repeat left top;
 }
 
 /*Homepage Video*/
