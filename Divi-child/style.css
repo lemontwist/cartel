@@ -31,7 +31,7 @@ a {
 }
 
 #top-menu li {
-	padding-right: 1.5em;
+	padding-right: 3em;
 }
 
 #top-menu a:hover {
@@ -47,12 +47,12 @@ a {
 }
 
 #top-menu li > a {
-	padding-bottom:.5em;
+	padding-bottom:.25em;
 }
 
 /*sub-menus!*/ .nav li ul {
 padding:1em;
-top: 2.5em;
+top: 3.25em;
 }
 
 .et_fixed_nav #logo {
@@ -82,6 +82,19 @@ top: 2.5em;
 /* Homepage */
 
 .homepage h2 {
+	text-transform: uppercase;
+	font-family: 'Universal', 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 3em;
+}
+
+/* Easily use Universal */
+.universal h1 {
+	text-transform: uppercase;
+	font-family: 'Universal', 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 4.5em;
+}
+
+.universal p {
 	text-transform: uppercase;
 	font-family: 'Universal', 'Roboto',Helvetica,Arial,Lucida,sans-serif;
 	font-size: 3em;
