@@ -130,7 +130,7 @@
 				<div id="et-top-navigation">
 					
 					<nav id="top-menu-nav">
-						<div class="mission"><em>Great events make life better.</em></div><br/><br/>
+						<div class="mission">Great events make life better.</div><br/><br/>
 					<?php
 						$menuClass = 'nav';
 						if ( 'on' == et_get_option( 'divi_disable_toptier' ) ) $menuClass .= ' et_disable_top_tier';

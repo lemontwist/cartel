@@ -24,6 +24,7 @@ Template: Divi
 	font-size: 4em;
 	text-transform: uppercase;
 	font-family: 'Universal', 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+	text-shadow: 1px 1px #fff;
 }
 
 a {
@@ -40,6 +41,8 @@ a {
 
 #top-menu li li a {
 	font-size: 2em;
+	text-shadow: none;
+	
 }
 
 #top-menu li li a:hover {
@@ -73,6 +76,11 @@ top: 3.25em;
 
 .mission {
 	color: #fff;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-family: 'Universal', 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+	
+	
 }
 
 .et-fixed-header .mission {
@@ -98,6 +106,13 @@ top: 3.25em;
 	text-transform: uppercase;
 	font-family: 'Universal', 'Roboto',Helvetica,Arial,Lucida,sans-serif;
 	font-size: 3em;
+}
+
+/* Productions Styling */
+
+.productions h2 {
+	line-height: 2em;
+	color: #A10311;
 }
 
 /*Padding in General*/
