@@ -61,11 +61,11 @@ top: 3.25em;
 }
 
 .et_fixed_nav #logo {
-	max-height:180px;
+	max-height:120px;
 }
 
 #main-header nav#top-menu-nav {
-	padding-top:4.5em;
+	padding-top:1.5em;
 }
 
 #main-header.et-fixed-header nav#top-menu-nav {
@@ -79,6 +79,9 @@ top: 3.25em;
 .mission {
 	color: #fff;
 	font-size: 2em;
+	text-shadow: 1px 1px #A10311;
+	font-weight: bold;
+	
 }
 
 .et-fixed-header .mission {
