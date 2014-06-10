@@ -24,7 +24,7 @@ Template: Divi
 #top-menu a {
 	font-size: 2em;
 	text-transform: uppercase;
-	/*text-shadow: 1px 1px #fff;*/
+	text-shadow: 1px 1px #383838;
 	font-weight: bold;
 	color: #fff;
 }
@@ -94,6 +94,22 @@ top: 3.25em;
 	text-transform: uppercase;
 	font-family: 'Universal', 'Roboto',Helvetica,Arial,Lucida,sans-serif;
 	font-size: 3em;
+}
+
+/*Mission statement on about page*/
+
+.mission-about {
+	text-shadow: 1px 1px #fff;
+}
+
+.mission-about h1, h2, h3, h4, h5, h6 {
+	font-family: 'Dosis',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: bold;
+	line-height: 2em;
+}
+
+.mission-about .et_pb_text {
+	padding-top: 1.5em;
 }
 
 /* Easily use Universal */
@@ -178,7 +194,7 @@ top: 3.25em;
 }
 
 .newsletter-box a:hover {
-	color: #a1a0a0;
+	color: #383838;
 }
 
 /* Newsletter form */
