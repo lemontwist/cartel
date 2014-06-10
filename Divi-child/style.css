@@ -26,6 +26,7 @@ Template: Divi
 	text-transform: uppercase;
 	/*text-shadow: 1px 1px #fff;*/
 	font-weight: bold;
+	color: #fff;
 }
 
 a {
@@ -43,7 +44,7 @@ a {
 #top-menu li li a {
 	font-size: 1em;
 	text-shadow: none;
-	
+	color: #A10311;
 }
 
 #top-menu li li a:hover {
