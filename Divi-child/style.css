@@ -18,6 +18,7 @@ Template: Divi
 
 #main-header {
 	background: url(header-background.jpg) no-repeat 100%;
+	background-position: left top;
 }
 
 #top-menu a {
