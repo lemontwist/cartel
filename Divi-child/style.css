@@ -17,8 +17,9 @@ Template: Divi
 /* Header */
 
 #main-header {
-	background: url(header-background.jpg) repeat 100%;
-	background-position: left center;
+	background: url(header-background.jpg) no-repeat 100%;
+	background-position: 0% 35%;
+	background-size:cover;
 }
 
 #top-menu a {
@@ -57,7 +58,7 @@ a {
 
 /*sub-menus!*/ .nav li ul {
 padding:1em;
-top: 3.25em;
+top: 2em;
 }
 
 .et_fixed_nav #logo {
@@ -183,10 +184,12 @@ top: 3.25em;
 }
 
 .newsletter-box {
-	background-image: url(cARTel_Icon_Red.png);
-	background-position: 0% 11%;
-	padding: .5em;
+	/*background-image: url(cARTel_Icon_Red.png);
+	background-position: 0% 11%;*/
+	/*padding: .5em;*/
 	font-size: 1.5em;
+	background: #a0030f;
+	text-align: center;
 }
 
 .newsletter-box a {
