@@ -220,9 +220,8 @@ top: 2em;
 	height: 608px;
 }
 
-.homepage-video .et_pb_container .clearfix {
-	min-height:608px;
-	width:1080px;
+div.et_pb_slide_content {
+	display: block !important;
 }
 
 /*Media Queries for Mobile*/
