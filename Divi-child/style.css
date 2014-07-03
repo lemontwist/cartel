@@ -215,17 +215,19 @@ top: 2em;
 	height:608px;
 }
 
-.homepage-video video {
-	width: 1080px;
-	height: 608px;
-}
-
 .homepage-video .et_pb_container .clearfix {
 	min-height:608px;
 	width:1080px;
 }
 
-/*Media Queries for Mobile*/
+/*Media Queries for Responsive Design*/
+
+@media only screen and (min-width: 1024px){
+.homepage-video video {
+width: 1080px !important;
+height: 608px !important;
+}
+}
 
 /*-------------------[480px]------------------*/
 @media only screen and ( max-width: 767px ) {
